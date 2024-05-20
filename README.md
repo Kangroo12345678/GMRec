@@ -1,8 +1,8 @@
 # GMRec
-## For results: if you wish to run it for yourself:
+ For results: if you wish to run it for yourself:
 ### Environment
-setting up: following [environment.yaml] in Mamba4Rec will do
-activating and running:
+setting up: following [environment.yaml] in Mamba4Rec will do \\
+activating and running: \\
 srun -t 10:05:00 --mem=16000 --gres=gpu:1 --pty /bin/bash # allocating GPU
 singularity exec --nv --overlay /vast/[id]/mamba-rec_env/mamba-rec_env.ext3:ro /scratch/work/public/singularity/cuda11.8.86-cudnn8.7-devel-ubuntu22.04.2.sif /bin/bash
 source /ext3/env.sh 
